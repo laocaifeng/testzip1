@@ -1,0 +1,1 @@
+nohup java "-Dspring.profiles.active=dev" -cp "../*:../resources:../lib/*:../config" com.example.testzip.TestzipApplication > "../sout.log" 2>&1 &
